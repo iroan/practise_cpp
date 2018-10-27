@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(practice_cmake_test)
+#include_directories("${PROJECT_SOURCE_DIR}/sub")
+#add_subdirectory(sub)
+add_executable(practice_cmake_test_exe demo.cpp)
+# install(targets practice_cmake_test_exe destination bin)
